@@ -58,6 +58,10 @@ const userSchema = new mongoose.Schema({
     about: {
         type: String,
         default: "This is a custom about"
+    },
+    isPremium: {
+        type: Boolean,
+        default: false
     }
 }, {
     timestamps: true
